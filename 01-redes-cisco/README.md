@@ -1,51 +1,93 @@
+# Proyecto 01: Infraestructura de Red Empresarial Multisede
 
-# Laboratorio 01: Diseño y configuración de redes Cisco
+## 1. Descripción general
 
-## 1. Descripción
+Diseño e implementación de una infraestructura de red empresarial multisede para la empresa ficticia TechSecure Solutions, utilizando Cisco Packet Tracer y GNS3.
 
-Proyecto académico realizado en Cisco Packet Tracer.
-El objetivo es diseñar, configurar y verificar una red
-informática mediante routers, switches y equipos finales.
+El proyecto contempla la interconexión de tres sedes corporativas, segmentación de redes mediante VLAN, direccionamiento IPv4, enrutamiento, servicios de red y mecanismos básicos de seguridad.
 
-## 2. Objetivos
+## 2. Objetivo general
 
-- Diseñar una topología de red.
-- Configurar routers y switches Cisco.
-- Asignar direcciones IPv4 e IPv6.
-- Configurar servicios de conectividad.
-- Implementar NAT y listas de control de acceso (ACL).
-- Configurar acceso remoto mediante SSH.
-- Verificar la conectividad mediante pruebas de ping.
+Diseñar, implementar y validar una infraestructura de red empresarial que permita la comunicación entre las diferentes sedes, garantizando organización, escalabilidad, administración y seguridad de los recursos tecnológicos.
 
-## 3. Herramientas utilizadas
+## 3. Objetivos específicos
 
-- Cisco Packet Tracer
-- Cisco IOS
-- Direccionamiento IPv4 e IPv6
+- Diseñar la topología física y lógica de la infraestructura.
+- Implementar direccionamiento IPv4 mediante subnetting y VLSM.
+- Segmentar la red utilizando VLAN.
+- Configurar switches y routers Cisco.
+- Implementar enrutamiento entre redes y sedes.
+- Configurar servicios DHCP y DNS.
+- Implementar NAT, ACL y administración SSH.
+- Realizar pruebas de conectividad y seguridad.
+- Documentar configuraciones, evidencias y resultados.
 
-## 4. Tecnologías y configuraciones
+## 4. Escenario empresarial
 
-- Configuración básica de dispositivos.
-- Direccionamiento IP.
-- Configuración de interfaces.
-- NAT estática y dinámica.
-- Access Control Lists (ACL).
-- Secure Shell (SSH).
+La infraestructura contempla tres sedes:
 
-## 5. Evidencias
+| Sede | Capacidad de usuarios |
+|---|---:|
+| Principal | 180 |
+| Operaciones | 180 |
+| Call Center | 180 |
+| Total | 540 |
 
-Las capturas de pantalla de la topología,
-configuraciones y pruebas se agregarán en esta sección.
+## 5. Requerimientos funcionales
 
-## 6. Resultados
+- Comunicación entre dispositivos de una misma sede.
+- Interconexión de las tres sedes.
+- Segmentación por departamentos mediante VLAN.
+- Enrutamiento entre VLAN y sedes.
+- Asignación automática de direcciones IP mediante DHCP.
+- Resolución de nombres mediante DNS.
+- Acceso a servicios corporativos.
+- Salida a redes externas mediante NAT.
+- Administración remota mediante SSH.
+- Control del tráfico mediante ACL.
 
-Se documentarán los resultados de las pruebas
-de conectividad y funcionamiento de la red.
+## 6. Requerimientos no funcionales
 
-## 7. Aprendizajes
+- Seguridad de la infraestructura.
+- Disponibilidad de los servicios.
+- Escalabilidad.
+- Rendimiento adecuado.
+- Facilidad de administración.
+- Documentación técnica.
 
-- Configuración de dispositivos de red.
-- Administración básica de routers y switches.
-- Implementación de mecanismos de acceso y seguridad.
-- Diagnóstico de conectividad.
+## 7. Tecnologías y herramientas
 
+- Cisco Packet Tracer.
+- GNS3.
+- Direccionamiento IPv4.
+- VLAN y trunk 802.1Q.
+- STP.
+- Routing.
+- DHCP y DNS.
+- NAT.
+- ACL.
+- SSH.
+
+## 8. Alcance
+
+El proyecto comprende el diseño, configuración, implementación y validación de una infraestructura de red empresarial multisede de nivel intermedio.
+
+El direccionamiento IPv6 y la implementación de VPN IPsec no forman parte del alcance inicial.
+
+## 9. Metodología de trabajo
+
+El desarrollo se dividirá en las siguientes etapas:
+
+1. Análisis de requerimientos.
+2. Diseño lógico.
+3. Diseño físico.
+4. Implementación en simuladores.
+5. Configuración de infraestructura.
+6. Implementación de servicios.
+7. Seguridad de red.
+8. Pruebas y validación.
+9. Documentación técnica.
+
+## 10. Estado del proyecto
+
+Fase 1: Análisis de requerimientos — En desarrollo.
