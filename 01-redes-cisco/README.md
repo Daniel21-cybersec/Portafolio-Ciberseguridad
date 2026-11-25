@@ -91,3 +91,37 @@ El desarrollo se dividirá en las siguientes etapas:
 ## 10. Estado del proyecto
 
 Fase 1: Análisis de requerimientos — En desarrollo.
+
+## 11. Validación de requerimientos
+
+Se establece una infraestructura empresarial compuesta por tres sedes: Principal, Operaciones y Call Center.
+
+Cada sede tendrá una capacidad inicial de 180 usuarios, alcanzando una capacidad corporativa de 540 usuarios.
+
+### Arquitectura de servidores
+
+Los servidores corporativos estarán centralizados en la Sede Principal. Las sedes remotas accederán a estos servicios mediante la infraestructura de interconexión WAN.
+
+### Decisiones técnicas aprobadas
+
+- Capacidad: 180 usuarios por sede.
+- Capacidad corporativa: 540 usuarios.
+- Centro de servidores: Sede Principal.
+- Direccionamiento: IPv4.
+- Segmentación: VLAN.
+- Enrutamiento: comunicación entre VLAN y sedes.
+- Servicios: DHCP y DNS.
+- Seguridad: ACL y SSH.
+- Traducción de direcciones: NAT.
+- Simuladores: Cisco Packet Tracer y GNS3.
+- Reserva de crecimiento propuesta: 20%.
+
+### Criterios de aceptación
+
+La infraestructura deberá demostrar conectividad, segmentación, enrutamiento, disponibilidad de servicios, administración remota y control de acceso.
+
+### Resultado de la fase
+
+Los requerimientos principales y la arquitectura inicial han sido validados como base para el diseño lógico de la infraestructura.
+
+**Estado: Fase 1 completada.**
